@@ -14,6 +14,7 @@
 		4F0A668A2B17B89800467561 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 4F0A66892B17B89800467561 /* SDWebImage */; };
 		4F0A668C2B17B89800467561 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4F0A668B2B17B89800467561 /* SDWebImageMapKit */; };
 		4F526CE22B1B9F380076192D /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F526CE12B1B9F380076192D /* TitleViewModel.swift */; };
+		4F526CE42B1E0C830076192D /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F526CE32B1E0C830076192D /* SearchResultsViewController.swift */; };
 		4F64E1F02B1A62DB007ED230 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F64E1EF2B1A62DB007ED230 /* TitleTableViewCell.swift */; };
 		4F6C28792AF024FB004112DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6C28782AF024FB004112DC /* AppDelegate.swift */; };
 		4F6C287B2AF024FB004112DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6C287A2AF024FB004112DC /* SceneDelegate.swift */; };
@@ -34,6 +35,7 @@
 		4F0A66822B17A60800467561 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		4F0A66862B17B62300467561 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 		4F526CE12B1B9F380076192D /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		4F526CE32B1E0C830076192D /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		4F64E1EF2B1A62DB007ED230 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		4F6C28752AF024FB004112DC /* Netflix_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netflix_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F6C28782AF024FB004112DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F526CE52B1E0CD00076192D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4F6C28A42AF02B2F004112DC /* HomeViewController.swift */,
+				4F6C28A62AF02B60004112DC /* UpcomingViewController.swift */,
+				4F6C28A82AF02B7D004112DC /* SearchViewController.swift */,
+				4F6C28AA2AF02B9C004112DC /* DownloadsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4F526CE82B1E0D890076192D /* General */ = {
+			isa = PBXGroup;
+			children = (
+				4F526CE32B1E0C830076192D /* SearchResultsViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		4F6C286C2AF024FB004112DC = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +122,8 @@
 		4F6C288C2AF02680004112DC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4F6C28A42AF02B2F004112DC /* HomeViewController.swift */,
-				4F6C28A62AF02B60004112DC /* UpcomingViewController.swift */,
-				4F6C28A82AF02B7D004112DC /* SearchViewController.swift */,
-				4F6C28AA2AF02B9C004112DC /* DownloadsViewController.swift */,
+				4F526CE82B1E0D890076192D /* General */,
+				4F526CE52B1E0CD00076192D /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -238,6 +257,7 @@
 				4FBF08152AF13DEF0068E780 /* HeroHeaderUIView.swift in Sources */,
 				4F6C28AB2AF02B9C004112DC /* DownloadsViewController.swift in Sources */,
 				4F6C28792AF024FB004112DC /* AppDelegate.swift in Sources */,
+				4F526CE42B1E0C830076192D /* SearchResultsViewController.swift in Sources */,
 				4F0A66832B17A60800467561 /* Extensions.swift in Sources */,
 				4F6C287B2AF024FB004112DC /* SceneDelegate.swift in Sources */,
 				4F6C28A72AF02B60004112DC /* UpcomingViewController.swift in Sources */,
