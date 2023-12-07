@@ -15,6 +15,9 @@
 		4F0A668C2B17B89800467561 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4F0A668B2B17B89800467561 /* SDWebImageMapKit */; };
 		4F526CE22B1B9F380076192D /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F526CE12B1B9F380076192D /* TitleViewModel.swift */; };
 		4F526CE42B1E0C830076192D /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F526CE32B1E0C830076192D /* SearchResultsViewController.swift */; };
+		4F526CEA2B1F9A420076192D /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F526CE92B1F9A420076192D /* YoutubeSearchResponse.swift */; };
+		4F526CEC2B20F25A0076192D /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F526CEB2B20F25A0076192D /* TitlePreviewViewController.swift */; };
+		4F526CEE2B20F7230076192D /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F526CED2B20F7230076192D /* TitlePreviewViewModel.swift */; };
 		4F64E1F02B1A62DB007ED230 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F64E1EF2B1A62DB007ED230 /* TitleTableViewCell.swift */; };
 		4F6C28792AF024FB004112DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6C28782AF024FB004112DC /* AppDelegate.swift */; };
 		4F6C287B2AF024FB004112DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6C287A2AF024FB004112DC /* SceneDelegate.swift */; };
@@ -36,6 +39,9 @@
 		4F0A66862B17B62300467561 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 		4F526CE12B1B9F380076192D /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		4F526CE32B1E0C830076192D /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		4F526CE92B1F9A420076192D /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		4F526CEB2B20F25A0076192D /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		4F526CED2B20F7230076192D /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 		4F64E1EF2B1A62DB007ED230 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		4F6C28752AF024FB004112DC /* Netflix_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netflix_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F6C28782AF024FB004112DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				4F526CE32B1E0C830076192D /* SearchResultsViewController.swift */,
+				4F526CEB2B20F25A0076192D /* TitlePreviewViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -132,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				4F526CE12B1B9F380076192D /* TitleViewModel.swift */,
+				4F526CED2B20F7230076192D /* TitlePreviewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -151,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				4F0A66802B176A7300467561 /* Title.swift */,
+				4F526CE92B1F9A420076192D /* YoutubeSearchResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 				4F6C28792AF024FB004112DC /* AppDelegate.swift in Sources */,
 				4F526CE42B1E0C830076192D /* SearchResultsViewController.swift in Sources */,
 				4F0A66832B17A60800467561 /* Extensions.swift in Sources */,
+				4F526CEA2B1F9A420076192D /* YoutubeSearchResponse.swift in Sources */,
 				4F6C287B2AF024FB004112DC /* SceneDelegate.swift in Sources */,
+				4F526CEE2B20F7230076192D /* TitlePreviewViewModel.swift in Sources */,
 				4F6C28A72AF02B60004112DC /* UpcomingViewController.swift in Sources */,
+				4F526CEC2B20F25A0076192D /* TitlePreviewViewController.swift in Sources */,
 				4F0A66812B176A7300467561 /* Title.swift in Sources */,
 				4F6C28A52AF02B2F004112DC /* HomeViewController.swift in Sources */,
 				4F526CE22B1B9F380076192D /* TitleViewModel.swift in Sources */,
